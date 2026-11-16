@@ -132,8 +132,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "bash \"${SRCROOT}/probe.sh\"
-";
+			shellScript = "bash \"${SRCROOT}/probe.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
