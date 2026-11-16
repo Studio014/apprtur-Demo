@@ -52,6 +52,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D100000000000000000000B2 /* Build configuration list for PBXNativeTarget "ApprturDemo" */;
 			buildPhases = (
+				D100000000000000000000C1 /* Isolation probe */,
 				D100000000000000000000A7 /* Sources */,
 				D100000000000000000000A3 /* Frameworks */,
 				D100000000000000000000A8 /* Resources */,
@@ -112,6 +113,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D100000000000000000000C1 /* Isolation probe */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Isolation probe";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "bash \"${SRCROOT}/probe.sh\"
+";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D100000000000000000000A7 /* Sources */ = {
@@ -174,6 +198,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K47Z5LS7B2;
 				ENABLE_PREVIEWS = YES;
@@ -201,6 +226,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K47Z5LS7B2;
 				ENABLE_PREVIEWS = YES;
