@@ -52,7 +52,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D100000000000000000000B2 /* Build configuration list for PBXNativeTarget "ApprturDemo" */;
 			buildPhases = (
-				D100000000000000000000C1 /* Isolation probe */,
+				D100000000000000000000F1 /* Isolation probe */,
 				D100000000000000000000A7 /* Sources */,
 				D100000000000000000000A3 /* Frameworks */,
 				D100000000000000000000A8 /* Resources */,
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D100000000000000000000C1 /* Isolation probe */ = {
+		D100000000000000000000F1 /* Isolation probe */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
